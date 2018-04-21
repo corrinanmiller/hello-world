@@ -1,0 +1,60 @@
+./process-run.py -l 5:100,5:100 sudo apt update
+    2  sudo apt upgrade
+    3  cd introcode
+    4  cd code.intro
+    5  gcc -o cpu -s cpu.c -Wall -Werror
+    6  gcc -S cpu.c -o cpu -Wall -Werror
+    7  cd /
+    8  cd code.intro
+    9  cd /code.intro
+   10  cd code.intro
+   11  cd /
+   12  cd workspace
+   13  cd code.intro
+   14  cd workspace/code.intro
+   15  cd 
+   16  cd code.intro
+   17  cd
+   18  cd workspace/code.intro
+   19  cd code.intro
+   20  gcc -S cpu.c -o cpu -Wall -Werror
+   21  gcc -S cpu.c -o -Wall -Werror
+   22  gcc -S cpu.c -Wall -Werror
+   23  ./cpu
+   24  cd ../.
+   25  sudo apt install build-essential
+   26  cd code.intro
+   27  ./cpu "my best process"
+   28  gcc -S cpu.c -Wall -Werror
+   29  ./a.out "A"
+   30  ./cpu "A"
+   31  gcc -o cpu.c -Wall
+   32  gcc -s cpu.c -Wall -Werror
+   33  ./a.out "A"
+   34  ./a.out A & ./a.out B & ./a.out C & ./a.out D & 
+   35  ps -all
+   36  kill 8647
+   37  cd ../HW-C*
+   38  cd code.intro
+   39  cd ../HW-c*
+   40  cd HW-CPU-INTRO
+   41  cd code.intro
+   42  cd ../
+   43  cd HW-CPU-INTRO
+   44  .process-run.py -h
+   45  ./process-run.py -h
+   46  ls -al
+   47  chmod 777 process-run.py
+   48  ls -al
+   49  ./process-run.py -h
+   50  ./process-run.py
+   51  ls -al
+   52  ./process-run.py
+   53  ./process-run.py -h
+   54  python process-run.py -h
+   55  python process-run.py -l 5:100,5:100
+   56  python process-run.py -l 5:100,5:100 -c -p
+   57  python process-run.py -l 4:100,1:0
+   58  python process-run.py -l 4:100,1:0 -c -p
+   59  history
+   60  history > hw_cpu.txt
