@@ -1,0 +1,56 @@
+spaceshark:~/workspace $ history
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  cd introcode
+    4  cd code.intro
+    5  gcc -o cpu -s cpu.c -Wall -Werror
+    6  gcc -S cpu.c -o cpu -Wall -Werror
+    7  cd /
+    8  cd code.intro
+    9  cd /code.intro
+   10  cd code.intro
+   11  cd /
+   12  cd workspace
+   13  cd code.intro
+   14  cd workspace/code.intro
+   15  cd 
+   16  cd code.intro
+   17  cd
+   18  cd workspace/code.intro
+   19  cd code.intro
+   20  gcc -S cpu.c -o cpu -Wall -Werror
+   21  gcc -S cpu.c -o -Wall -Werror
+   22  gcc -S cpu.c -Wall -Werror
+   23  ./cpu
+   24  cd ../.
+   25  sudo apt install build-essential
+   26  cd code.intro
+   27  ./cpu "my best process"
+   28  gcc -S cpu.c -Wall -Werror
+   29  ./a.out "A"
+   30  ./cpu "A"
+   31  gcc -o cpu.c -Wall
+   32  gcc -s cpu.c -Wall -Werror
+   33  ./a.out "A"
+   34  ./a.out A & ./a.out B & ./a.out C & ./a.out D & 
+   35  ps -all
+   36  kill 8647
+   37  history
+
+For Threads files Threads v0.c  -- Compile and save to temps...
+gcc -o threads11 -save-temps threads.v0.c -pthread -Wall -Werror                                                        
+
+./threads11
+   
+   The best way to kill programs that are running int he background. Open a new terminal. Type ps -all to see what is running. Then type kill #### for # = the PID
+   Meaning The program ID will be a number that you will kill 
+   Example kill 4444
+   
+   ::command to compile and save a program into a new name (mycpu). This is the program you are compiling cpu.c.
+   gcc -o mycpu -save-temps cpu.c -Wall -Werror
+   :: When i run this --> ./mycpu (argument) :: For example ./mycpu You_Are_Awesome --> returns this statement over and over.
+   If you execute with an (&) at the end, it will not kill with Ctrl C. It is then regarded as a background item.
+   ./mycpu You_Are_Awesome &  --> This keeps going. you need to look at the kill statements above to stop it
+
+ gcc -o threads11 -save-temps threads.v0.c -pthread -Wall -Werror
+ gcc -o threads22 -save-temps threads.v1.c -pthread -Wall -Werror
