@@ -1,0 +1,65 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  cd introcode
+    4  cd code.intro
+    5  gcc -o cpu -s cpu.c -Wall -Werror
+    6  gcc -S cpu.c -o cpu -Wall -Werror
+    7  cd /
+    8  cd code.intro
+    9  cd /code.intro
+   10  cd code.intro
+   11  cd /
+   12  cd workspace
+   13  cd code.intro
+   14  cd workspace/code.intro
+   15  cd 
+   16  cd code.intro
+   17  cd
+   18  cd workspace/code.intro
+   19  cd code.intro
+   20  gcc -S cpu.c -o cpu -Wall -Werror
+   21  gcc -S cpu.c -o -Wall -Werror
+   22  gcc -S cpu.c -Wall -Werror
+   23  ./cpu
+   24  cd ../.
+   25  sudo apt install build-essential
+   26  cd code.intro
+   27  ./cpu "my best process"
+   28  gcc -S cpu.c -Wall -Werror
+   29  ./a.out "A"
+   30  ./cpu "A"
+   31  gcc -o cpu.c -Wall
+   32  gcc -s cpu.c -Wall -Werror
+   33  ./a.out "A"
+   34  ./a.out A & ./a.out B & ./a.out C & ./a.out D & 
+   35  ps -all
+   36  kill 8647
+   37  cd code.intro
+   38  gcc -o mycpu -save-temps cpu.c -Wall -Werror
+   39  ./mycpu I_AM_Awesome
+   40  gcc -0 ioTest -save-temps io.c -Wall -Werror
+   41  gcc -o ioTest -save-temps io.c -Wall -Werror
+   42  ./ioTest 4242
+   43  ./ioTest 
+   44  gcc -0 threads11 -save-temps threads.v0.c -pthread -Wall -Werror
+   45  gcc -o threads11 -save-temps threads.v0.c -pthread -Wall -Werror
+   46  ./threads11
+   47  ./threads11 25
+   48  4000
+   49  ./threads11 25000
+   50  gcc -o threads22 -save-temps threads.v1.c -pthread -Wall -Werror
+   51  ./threads22 3300
+   52  .ioTest
+   53  ./ioTest
+   54  ./ioTest &
+   55  ./ioTest
+   56  ./ioTest bleep
+   57  history
+   58  ./ioTest
+   59  ./memNew
+   60  ./memNew 5000
+   61  gcc -o ioTesting -save-temps io.c -Wall -Werror
+   62  ./ioTesting
+   63  ./io.c
+   64  ./ioTesting
+   65  history > bash4-15
